@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+    body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(47, 150, 163), rgba(48, 62, 143));
+  font-family: sans-serif;
+  color: white;
+}
+
+.container 
+
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(48, 156, 156);
+  width: 90%;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(29, 43, 124);
+  min-height: 400px;
+}
+
+  .SearchDiv {
+  top: 30px;
+  position: fixed;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 400px;
+  background-color: darkslateblue;
+  padding: 3px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px rgb(29, 43, 124);
+}
+
+
+  .SearchBtn {
+  padding: 4px;
+  border: 0;
+  width: 80px;
+  margin: 0;
+  font-size: 20px;
+  border-left: 1px solid darkblue;
+  color: white;
+  background-color: slateblue;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+
+.SearchFld {
+  padding: 4px;
+  padding-left: 5px;
+  background: none;
+  width: 90%;
+  font-size: 20px;
+  border: 0;
+  color: white;
+}
+
+
+
+.SearchWeather {
+  display: flex;
+  text-align: right;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  padding: 0;
+  color: darkblue;
+  align-items: right;
+  background: none;
+}
+
+
+
+
+
+.DateSUV {
+  width: 90%;
+  max-width: 500px;
+  padding: 5px;
+  font-size: 15px;
+  color: gainsboro;
+}
+
+
+
+
+.SUVIndicator {
+  border-radius: 5px;
+  border-left-width: 25px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-top: 0;
+  border-right: 0;
+  width: 320px;
+  height: 25px;
+  padding-left: 4px;
+}
+
+
+
+
+
+.AdditionalDayTable {
+  font-size: 14px;
+  margin-top: 5px;
+  min-width: 320px;
+  border-spacing: 4px;
+}
+
+
+
+
+
+
+.AdditionalDayTable tbody tr td {
+  border-radius: 5px;
+  border: 1px solid yellowgreen;
+  text-align: center;
+}
+
+
+
+
+
+.AdditionalDaysDiv {
+  margin-top: 15px;
+}
+
+
+
+
+
+.ExtraDaysIcons {
+  max-width: 60px;
+}
+
+
+
+
+.temperature-description {
+  color: rgb(59, 38, 1);
+}
+
+
+
+
+.TodayWeatherIcon {
+  min-width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.location-timezone {
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+.temprerature {
+  width: 100%;
+  text-align: center;
+}
+
+
+.location {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+.ExtraDaysTemp {
+  text-align: center;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>The Weather 5 Day forcast</title>
+  </head>
+
+
+
+
+
+
+
+
+  <body>
+    
+    
+    
+    <div class="SearchDiv">
+     
+     
+      <div class="SearchWeather">
+        <input
+          placeholder="get weather info by city"
+          type="search"
+          class="SearchFld"
+        />
+        <button class="SearchBtn">Search</button>
+      </div>
+
+
+
+
+    </div>
+    <div class="DateSUV">
+      <p class="calendarP">
+        <img src="icons/Calendar.png" width="25" height="25" />
+        <sup id="DateSup"></sup>
+      </p>
+      <p class="SUVIndicator">
+        <sub id="SUVNumber"></sub>
+      </p>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="location">
+        <h2 class="location-timezone"></h2>
+        <p><img class="TodayWeatherIcon" /></p>
+      </div>
+
+
+
+
+
+      <div class="temprerature">
+        <h2 class="temperature-degree"></h2>
+        <div class="temperature-description"></div>
+        <sub class="temperature-time"></sub>
+      </div>
+
+
+
+      <div class="AdditionalDaysDiv">
+        <h3 style="color: darkkhaki; text-align: center;">
+          Weather Forecast
+        </h3>
+
+
+
+        <table class="AdditionalDayTable">
+          <tbody>
+            <tr>
+
+
+              <td>
+                <p id="Day2"></p>
+                <img class="ExtraDaysIcons" id="Day2Icon" />
+                <div class="ExtraDaysDesc">
+                  <p class="ExtraDaysTemp" id="Day2Temp"></p>
+                </div>
+              </td>
+
+
+              <td>
+                <p id="Day3"></p>
+                <img class="ExtraDaysIcons" id="Day3Icon" />
+                <div class="ExtraDaysDesc">
+                  <p class="ExtraDaysTemp" id="Day3Temp"></p>
+                </div>
+              </td>
+
+
+              <td>
+                <p id="Day4"></p>
+                <img class="ExtraDaysIcons" id="Day4Icon" />
+                <div class="ExtraDaysDesc">
+                  <p class="ExtraDaysTemp" id="Day4Temp"></p>
+                </div>
+              </td>
+
+
+              <td>
+                <p id="Day5"></p>
+                <img class="ExtraDaysIcons" id="Day5Icon" />
+                <div class="ExtraDaysDesc">
+                  <p class="ExtraDaysTemp" id="Day5Temp"></p>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
